@@ -4,13 +4,14 @@
 
 export const profilSekolah = {
   namaSekolah: "SDN Jatinegara Kaum 07 Pagi",
-  visi:
-    "Terwujudnya peserta didik yang beriman, bertakwa, cerdas, mandiri, dan berwawasan lingkungan.",
+  visi: "Terwujudnya murid yang berkarakter, unggul dalam prestasi dan berbudaya lingkungan.",
   misi: [
-    "Menanamkan nilai keimanan dan ketakwaan melalui pembiasaan sehari-hari.",
-    "Menyelenggarakan pembelajaran yang aktif, kreatif, dan menyenangkan.",
-    "Membina kemandirian dan tanggung jawab peserta didik.",
-    "Menumbuhkan kepedulian terhadap lingkungan sekolah.",
+    "Menumbuhkembangkan keimanan dan ketaqwaan kepadaTuhan Yang Maha Esa melalui kegiatan keagamaan dan pembiasaan di sekolah.",
+    "Menanamkan nilai-nilai kewargaan, penalaran kritis, kreativitas, kolaborasi, kemandirian, kesehatan, dan komunikasi dalam kegiatan pembelajaran.",
+    "Mengembangkan potensi akademik dan non akademik murid secara unggul dalam prestasi melalui pembelajaran yang berkesadaran, bermakna dan menggembirakan.",
+    "Membangun kemandirian, disiplin, tanggung jawab dan keharmonisan dalam membangun kemitraan bersama warga sekolah.",
+    "Mengoptimalkan sarana dan prasarana pendidikan guna mendukung tercapainya standar kualitas.",
+    "Menciptakan lingkungan belajar yang bersih, sehat, nyaman dan menumbuhkan kesadaran warga sekolah untuk menjaga kelestarian lingkungan.",
   ],
   sejarah:
     "SDN Jatinegara Kaum 07 Pagi berdiri sebagai bagian dari upaya Pemerintah Provinsi DKI Jakarta menyediakan pendidikan dasar yang merata bagi warga Kelurahan Jatinegara Kaum dan sekitarnya. Sekolah terus berbenah dalam kurikulum, fasilitas, dan tata kelola untuk memberikan layanan pendidikan terbaik bagi peserta didik.",
