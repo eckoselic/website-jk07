@@ -38,18 +38,21 @@ export default async function BerandaPage() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <div className="grid h-full grid-cols-2 gap-3">
-              <div className="col-span-2 flex aspect-[16/10] items-center justify-center rounded-2xl bg-marigold/25 text-ink-soft">
-                <span className="font-display text-sm italic">Foto kegiatan sekolah</span>
-              </div>
-              <div className="flex aspect-square items-center justify-center rounded-2xl bg-leaf-soft text-ink-soft">
-                <span className="text-center text-xs">Foto siswa</span>
-              </div>
-              <div className="flex aspect-square items-center justify-center rounded-2xl bg-ink/5 text-ink-soft">
-                <span className="text-center text-xs">Foto gedung sekolah</span>
-              </div>
-            </div>
-          </div>
+  <div className="grid h-full grid-cols-2 gap-3">
+    <div className="col-span-2 aspect-[16/10] overflow-hidden rounded-2xl bg-marigold/25">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/beranda/kegiatan.jpg" alt="Foto kegiatan sekolah" className="h-full w-full object-cover" />
+    </div>
+    <div className="aspect-square overflow-hidden rounded-2xl bg-leaf-soft">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/beranda/siswa.jpg" alt="Foto siswa" className="h-full w-full object-cover" />
+    </div>
+    <div className="aspect-square overflow-hidden rounded-2xl bg-ink/5">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/beranda/gedung.jpg" alt="Foto gedung sekolah" className="h-full w-full object-cover" />
+    </div>
+  </div>
+</div>
         </div>
 
         <div className="mt-14 grid grid-cols-3 gap-6 border-y border-line py-6 text-center sm:text-left">
