@@ -45,11 +45,11 @@ export default async function BerandaPage() {
     </div>
     <div className="aspect-square overflow-hidden rounded-2xl bg-leaf-soft">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/beranda/siswa.jpg" alt="Foto siswa" className="h-full w-full object-cover" />
+      <img src="/beranda/siswa.jpeg" alt="Foto siswa" className="h-full w-full object-cover" />
     </div>
     <div className="aspect-square overflow-hidden rounded-2xl bg-ink/5">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/beranda/gedung.jpg" alt="Foto gedung sekolah" className="h-full w-full object-cover" />
+      <img src="/beranda/gedung.jpeg" alt="Foto gedung sekolah" className="h-full w-full object-cover" />
     </div>
   </div>
 </div>
